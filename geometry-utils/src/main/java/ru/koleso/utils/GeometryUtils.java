@@ -17,4 +17,16 @@ public class GeometryUtils {
     ) {
         return shape1.getArea() == shape2.getArea();
     }
+
+    public static GeometricShapes getLargerShape(
+            GeometricShapes shape1,
+            GeometricShapes shape2
+    ) {
+
+        if (shape1.getArea() > shape2.getArea()) {
+            return shape1;
+        }
+
+        return shape2;
+    }
 }
