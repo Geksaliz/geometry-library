@@ -1,4 +1,6 @@
-package ru.koleso;
+package ru.koleso.impl;
+
+import ru.koleso.GeometricShapes;
 
 public class Rectangle implements GeometricShapes {
     private final double width;

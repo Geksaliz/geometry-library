@@ -1,4 +1,6 @@
-package ru.koleso;
+package ru.koleso.impl;
+
+import ru.koleso.GeometricShapes;
 
 public class Circle implements GeometricShapes {
     private final Double radius;

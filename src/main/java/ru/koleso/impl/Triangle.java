@@ -1,4 +1,6 @@
-package ru.koleso;
+package ru.koleso.impl;
+
+import ru.koleso.GeometricShapes;
 
 public class Triangle implements GeometricShapes {
     private final double sideA;
